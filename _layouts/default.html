@@ -1,1 +1,18 @@
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+    </header>
+
+    <main>
+        {{ content }}
+    </main>
+
+    {% include footer.html %}
+</body>
+</html>
