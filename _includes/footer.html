@@ -1,0 +1,9 @@
+<footer style="position: fixed; bottom: 0; left: 0; padding: 10px;">
+    <ul>
+        {% for link in site.social_links %}
+            <li>
+                <a href="{{ link.url }}" target="_blank">{{ link.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</footer>
