@@ -1,6 +1,8 @@
+---
+layout: default
+title: Home
+---
 
----
-layout: home
-title: "Hello, I'm Randy!"
----
-Welcome to my portfolio site. Here, you'll find my projects and blogs.
+# Welcome to Randy Pham's Portfolio
+
+Hello, I'm Randy Pham, a current UCR student asipiring to become a Software Engineer. 
