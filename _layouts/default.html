@@ -3,7 +3,20 @@
 <head>
     <title>{{ page.title }}</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        /* Add gradient styling for the header text */
+        .gradient-text {
+            font-family: 'Poppins', sans-serif;
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(to right, #f78ca0, #a0c4ff);
+            -webkit-background-clip: text;
+            color: transparent;
+            text-align: center;
+            margin: 20px 0;
+        }
+
         /* Add basic styling for navigation */
         nav {
             display: flex;
@@ -27,7 +40,10 @@
 </head>
 <body>
     <header>
-        <h1>{{ site.title }}</h1>
+        <!-- Gradient Header -->
+        <h1 class="gradient-text">Your Name</h1>
+
+        <!-- Navigation -->
         <nav>
             <a href="/">Home</a>
             <a href="/about/">About</a>
